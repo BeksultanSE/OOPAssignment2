@@ -16,6 +16,7 @@ public class Main {
         li.add(p1);
         li.add(p4);
         li.add(p3);
+        Collections.sort(li);
         printData(li);
     }
     public static void printData(Iterable<Person> people){
